@@ -1,0 +1,155 @@
+[33mcommit 76fe8266f3c082cdcf6eb00d4b82eb9519347500[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Alan Souza <111319566+sza-alan@users.noreply.github.com>
+Date:   Thu Apr 16 11:30:06 2026 -0300
+
+    Update database connection string in appsettings.json
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex 10a5a18..c2863c5 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -7,7 +7,7 @@[m
+   },[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+[31m-    "DefaultConnection": "Server=stellify-db-stellify-saas.i.aivencloud.com;Port=22139;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_MxNCr4nKiZTD6RnOyIB;SslMode=Required;"[m
+[32m+[m[32m    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+   },[m
+   "Jwt": {[m
+     "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+
+[33mcommit 7fc1f8cf69d75ad8e049282e82e7d8dbb952330c[m
+Author: Alan Souza <111319566+sza-alan@users.noreply.github.com>
+Date:   Thu Apr 16 11:29:05 2026 -0300
+
+    Update appsettings.json
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex c2863c5..10a5a18 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -7,7 +7,7 @@[m
+   },[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+[31m-    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+[32m+[m[32m    "DefaultConnection": "Server=stellify-db-stellify-saas.i.aivencloud.com;Port=22139;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_MxNCr4nKiZTD6RnOyIB;SslMode=Required;"[m
+   },[m
+   "Jwt": {[m
+     "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+
+[33mcommit ffb6cde3461e0551295a9c09e45f6dec74462efa[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Thu Apr 16 11:22:37 2026 -0300
+
+    fix
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex c2863c5..10a5a18 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -7,7 +7,7 @@[m
+   },[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+[31m-    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+[32m+[m[32m    "DefaultConnection": "Server=stellify-db-stellify-saas.i.aivencloud.com;Port=22139;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_MxNCr4nKiZTD6RnOyIB;SslMode=Required;"[m
+   },[m
+   "Jwt": {[m
+     "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+
+[33mcommit b3341d1247a1e2c51a06c06ad2284e6cd54b43c5[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Thu Apr 16 11:13:16 2026 -0300
+
+    Revert "fix"
+    
+    This reverts commit 0625f85ecc1c07eda9e7f3986bab2feef879b206.
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex 10a5a18..c2863c5 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -7,7 +7,7 @@[m
+   },[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+[31m-    "DefaultConnection": "Server=stellify-db-stellify-saas.i.aivencloud.com;Port=22139;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_MxNCr4nKiZTD6RnOyIB;SslMode=Required;"[m
+[32m+[m[32m    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+   },[m
+   "Jwt": {[m
+     "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+
+[33mcommit 0625f85ecc1c07eda9e7f3986bab2feef879b206[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Thu Apr 16 11:10:58 2026 -0300
+
+    fix
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex c2863c5..10a5a18 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -7,7 +7,7 @@[m
+   },[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+[31m-    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+[32m+[m[32m    "DefaultConnection": "Server=stellify-db-stellify-saas.i.aivencloud.com;Port=22139;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_MxNCr4nKiZTD6RnOyIB;SslMode=Required;"[m
+   },[m
+   "Jwt": {[m
+     "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+
+[33mcommit 99bd82cd5f97a2e39f809f22053de6d14a874579[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Thu Apr 16 10:21:55 2026 -0300
+
+    fix auth hash password
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex ea733e9..c2863c5 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -8,5 +8,8 @@[m
+   "AllowedHosts": "*",[m
+   "ConnectionStrings": {[m
+     "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "Jwt": {[m
+[32m+[m[32m    "Key": "SuperChaveSecretaDoMeuSaaS_ComMaisDe32CaracteresParaSerSegura"[m
+   }[m
+ }[m
+
+[33mcommit bf658586daeaf331ef17cb039ef6afdc42a7f423[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Tue Apr 14 21:36:24 2026 -0300
+
+    add delete class and students endpoint
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mindex e69de29..ea733e9 100644[m
+[1m--- a/StudentRanking.Api/appsettings.json[m
+[1m+++ b/StudentRanking.Api/appsettings.json[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "Logging": {[m
+[32m+[m[32m    "LogLevel": {[m
+[32m+[m[32m      "Default": "Information",[m
+[32m+[m[32m      "Microsoft.AspNetCore": "Warning"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "AllowedHosts": "*",[m
+[32m+[m[32m  "ConnectionStrings": {[m
+[32m+[m[32m    "DefaultConnection": "Server=localhost;Database=ranking_db;User=root;Password=Alan@2112;"[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+
+[33mcommit 80206ca2e39afd960286a9e6203e3ffde0622094[m
+Author: Alan Souza <alann.oficial3015@gmail.com>
+Date:   Tue Apr 14 20:41:43 2026 -0300
+
+    initial
+
+[1mdiff --git a/StudentRanking.Api/appsettings.json b/StudentRanking.Api/appsettings.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
